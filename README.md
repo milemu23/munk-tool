@@ -35,7 +35,6 @@ Use util.debug to debug.
 util.debug('Title of Message', object, 'error');
 ```
 
-
 ## Message Example
 ```sh
 success
