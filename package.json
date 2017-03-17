@@ -1,0 +1,14 @@
+{
+  "name": "munk-tool",
+  "version": "1.0.0",
+  "description": "Michelle's utility tool",
+  "main": "util-tool.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michelle Munksgard",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
