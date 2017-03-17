@@ -1,6 +1,6 @@
 {
   "name": "munk-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Michelle's utility tool",
   "main": "util-tool.js",
   "scripts": {
@@ -16,5 +16,4 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
-  }
 }
