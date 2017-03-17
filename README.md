@@ -31,6 +31,7 @@ const util = require('munk-tool');
 ```
 <br />
 Use util.debug to debug.
+
 ```
 util.debug('Title of Message', object, 'error');
 ```
