@@ -7,8 +7,8 @@ npm install munk-tool --sav-dev
 ```
 
 # Usage
-##Debugging
-###Logs will be found in ./log file
+## Debugging
+### Logs will be found in ./log file
 
 ## start up server in debug mode
 ```sh
