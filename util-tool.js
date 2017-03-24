@@ -11,12 +11,12 @@ const bump = (currentVer, typeofIncrement) => {
     aryVers[i] = parseInt(aryVers[i], 10);
   }
 
-  if (typeofIncrement === 'patch') {
+  if (typeofIncrement.toLowerCase() === 'patch') {
     aryVers[2] += 1;
-  } else if (typeofIncrement === 'minor') {
+  } else if (typeofIncrement.toLowerCase() === 'minor') {
     aryVers[2] = 0;
     aryVers[1] += 1;
-  } else if (typeofIncrement === 'major') {
+  } else if (typeofIncrement.toLowerCase() === 'major') {
     aryVers[2] = 0;
     aryVers[1] = 0;
     aryVers[0] += 1;

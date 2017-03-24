@@ -8,8 +8,6 @@ npm install munk-tool --sav-dev
 
 # Usage
 ## Debugging
-### Logs will be found in ./log file
-
 ## start up server in debug mode
 ```sh
 DEBUG=true nodemon src/server.js
@@ -45,4 +43,14 @@ Server is using
  Object: "3000"
 
 TIME: 3/9/2017, 9:23:10 PM
+```
+
+## Bump
+Bump accepts a semantic version argument and type to increment the version.
+
+Using the version bump:
+
+```javascript
+const util = require('../util-tool.js');
+const patch = util.bump('1.1.1', 'patch');
 ```
