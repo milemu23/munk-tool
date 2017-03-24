@@ -1,9 +1,21 @@
 const gulp = require('gulp');
-const util = require('./util-tool');
+const bump = require('gulp-bump');
+const argv = require('yargs').argv;
 
-// Bump the version included in bower.json and package.json
-gulp.task('bump-version', () => {
-  gulp.src(['./package.json'])
-  .pipe(util.bump({ typeofIncrement: 'patch' }))
-  .pipe(gulp.dest('./'));
+const bumpVersion = ' ';
+
+if (argv.major) {
+  bumpVersion = 'major';
+} else if (argv.minor) {
+  bumpVersion = 'minor';
+} else {
+  bumpVersion = 'patch';
+}
+
+gulp.task('bump', () => {
+  gulp.src('./package.json')
+    .pipe(util.bump({
+      typeofIncrement: bumpVersion,
+    }))
+        .pipe(gulp.dest('./'));
 });

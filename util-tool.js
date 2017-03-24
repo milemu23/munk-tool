@@ -57,7 +57,7 @@ const debug = (title, object, status) => {
     const msgFormat = `${out} Object: "${body}" \n\nTIME: ${date}`;
 
   // if the status is any of these...
-  switch(status) {
+  switch (status) {
     case 'error!':
     case 'error':
     case 'err':
