@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const bump = require('gulp-bump');
+const util = require('./util-tool');
 const argv = require('yargs').argv;
 
 const bumpVersion = ' ';
