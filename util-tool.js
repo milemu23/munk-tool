@@ -81,5 +81,6 @@ const debug = (title, object, status) => {
   }
   }
 };
+
 exports.debug = debug;
 exports.bump = bump;
